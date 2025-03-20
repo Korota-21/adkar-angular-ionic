@@ -39,3 +39,12 @@
 .counter-bottom ion-icon{
    font-size: 200%;
 }
+
+
+/* تقليل الـ padding للشاشات العريضة */
+@media (min-width: 992px) {
+    .counter {
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+}
